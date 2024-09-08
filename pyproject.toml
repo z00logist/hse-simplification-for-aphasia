@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "hse-simplification-for-aphasia"
+version = "0.1.0"
+description = ""
+authors = ["Anastasia <a.margolina@chatme.ai>"]
+readme = "README.md"
+packages = [{include = "hse_simplification_for_aphasia"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+llama-cpp-python = "0.2.89"
+langchain-community = "^0.2.16"
+nltk = "^3.9.1"
+evaluate = "^0.4.2"
+transformers = "^4.44.2"
+torch = "^2.4.1"
+bert-score = "^0.3.13"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
