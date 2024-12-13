@@ -16,6 +16,9 @@ evaluate = "^0.4.2"
 transformers = "^4.44.2"
 torch = "^2.4.1"
 bert-score = "^0.3.13"
+jupyter = "^1.1.1"
+jupyter-client = "^8.6.3"
+seaborn = "^0.13.2"
 
 
 [tool.poetry.group.dev.dependencies]
